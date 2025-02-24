@@ -1,0 +1,82 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: courier;
+    float: left;
+    color: #FF885B;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFE5CF;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: #557C56;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.tbl{
+    margin-top: 20px;
+    width: 600px;
+    margin: 50px;
+}
+th{
+    padding: 10px;
+    font-weight: 800;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+.mark, .jeno, .doyoung{
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background: #33372C;
+}
+.img, .img2, .img3{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+ul{
+    list-style-position: inside;
+    padding: 5px;
+}
